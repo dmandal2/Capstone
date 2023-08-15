@@ -1,0 +1,10 @@
+##
+auth:
+  ## @param auth.enabled Enable password authentication
+  ##
+  enabled: false
+master:
+  resources:
+    limits:
+      cpu: 200m
+      memory: 200Mi
